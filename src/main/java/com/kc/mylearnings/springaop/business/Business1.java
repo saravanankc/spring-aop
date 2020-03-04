@@ -15,9 +15,6 @@ public class Business1 {
     Dao1 dao1;
 
     public String calculateSomething(){
-
-        String ss = dao1.retrieveSomething();
-        LOGGER.info(ss);
-        return ss;
+        return dao1.retrieveSomething();
     }
 }
